@@ -16,7 +16,7 @@ const container = (delay) => ({
 const Hero = () => {
   return <div id="home" className='w-full h-screen flex flex-col justify-center items-center border-b border-neutral-900 pd-4 lg:mb-35' >
     <div className='flex flex-wrap mt-20 max-sm:auto-cols-auto '>
-        <div className='w-full lg:w-1/2'>
+        <div className='w-full lg:w-1/2 '>
            <div className='flex flex-col items-center lg:items-start'>
             <motion.h1 
             variants={container(0)}
@@ -36,7 +36,7 @@ const Hero = () => {
               variants={container(1)}
               initial="hidden"
               animate="visible"
-              className='text-3xl mb-4'
+              className='text-3xl mb-4 text-center sm:text-left'
             >An 
              <span className='bg-clip-text text-3xl tracking-tight  ps-2 text-center sm:text-center'>
                 Interior Designer</span></motion.h1> 

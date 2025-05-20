@@ -33,20 +33,18 @@ const Projects = () => {
     <p>Modern Interior</p>
     </motion.div>    
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 px-4 sm:px-6 md:px-8">
-        {/* <div className='columns-1 lg:gap-8 sm:columns-2 lg:columns-3 xl:columns-4 [&>img:not (:first-child)]:mt-5 lg:[&>img:not (:first-child)]:mt-8 gap-4 '> */}
-
             <motion.img 
             whileInView={{opacity:1,x:0}}
             initial={{opacity:0,x:-100}}
             transition={{duration:1.2}}
             src={project6} alt='' 
-            className=' rounded-2xl shadow-xl min-h-[50px] duration-300 transform hover:scale-105 hover:opacity-90 cursor-pointer hover:shadow-[#3f3f3f]'/>
+            className='rounded-2xl shadow-xl min-h-[50px] duration-300 transform hover:scale-105 hover:opacity-90 cursor-pointer hover:shadow-[#3f3f3f]'/>
 
             <motion.img 
             whileInView={{opacity:1,x:0}}
             initial={{opacity:0,x:-100}}
             transition={{duration:1}}
-            src={project2} alt='' className=' rounded-2xl shadow-xl h-[309px] duration-300  transform hover:scale-105 hover:opacity-90 cursor-pointer hover:shadow-[#3f3f3f]'/>
+            src={project2} alt='' className='rounded-2xl shadow-xl h-[309px] duration-300  transform hover:scale-105 hover:opacity-90 cursor-pointer hover:shadow-[#3f3f3f]'/>
 
             <motion.img 
             whileInView={{opacity:1,x:0}}
